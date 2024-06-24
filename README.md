@@ -11,7 +11,6 @@ This repository contains code for a data warehousing solution that involves extr
 6. [Key Functions](#key-functions)
 7. [Error Handling](#error-handling)
 8. [Logging](#logging)
-9. [License](#license)
 
 ## Introduction
 
