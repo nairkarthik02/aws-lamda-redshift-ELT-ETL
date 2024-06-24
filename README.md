@@ -30,7 +30,7 @@ The architecture of this project involves the following components:
 - AWS account with access to S3, Lambda, and Redshift.
 - Python 3.7 installed.
 - Architecture x86_64 on lambda.
-- psycopg2 and 
+- psycopg2 and pandas to be installed in AWS lambda Layers
 
 ### Configuration
 1. **AWS Redshift Configuration**: Update the Redshift connection details in the code with your own credentials.
