@@ -59,8 +59,8 @@ The architecture of this project involves the following components:
     ```
 4. **Lambda Layers**: Add the necessary Lambda layers.
     - Download the following zip files and upload them as Lambda layers:
-      - [layer1.zip](https://drive.google.com/uc?export=download&id=1YOMYeFcBhmpvrg8a0nSvwpnJhIBqywvp)
-      - [layer2.zip](https://drive.google.com/uc?export=download&id=1KWUTD4Beaj_uJe105tEqrlHTE1B5kz8M)
+      - [python-pandas.zip](https://drive.google.com/uc?export=download&id=1YOMYeFcBhmpvrg8a0nSvwpnJhIBqywvp)
+      - [psycopg2.zip](https://drive.google.com/uc?export=download&id=1KWUTD4Beaj_uJe105tEqrlHTE1B5kz8M)
     - Attach these layers to your Lambda function.
 
 ## Usage
