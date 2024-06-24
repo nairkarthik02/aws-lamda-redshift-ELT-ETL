@@ -29,8 +29,9 @@ The architecture of this project involves the following components:
 
 ### Prerequisites
 - AWS account with access to S3, Lambda, and Redshift.
-- Python 3.x installed.
-- AWS CLI configured with appropriate permissions.
+- Python 3.7 installed.
+- Architecture x86_64 on lambda.
+- psycopg2 and 
 
 ### Configuration
 1. **AWS Redshift Configuration**: Update the Redshift connection details in the code with your own credentials.
@@ -56,6 +57,9 @@ The architecture of this project involves the following components:
         ...
     }
     ```
+4. **Lambda Layers**: Add the necessary Lambda layers.
+    - Download the zip files in the repository and upload them as Lambda layers:
+    - Attach these layers to your Lambda function.
 
 ## Usage
 
